@@ -3,7 +3,7 @@
 sdict = {
     'name': 'pycall',
     'version': "0.0.1",
-    'packages': ['pycall'],
+    'packages': ['pycallgraph'],
     'zip_safe': False,
     'install_requires': ['django'],
     'author': 'WZS',
