@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
 sdict = {
-    'name': 'pycall',
+    'name': 'mycallgraph',
     'version': "0.0.1",
-    'packages': ['pycallgraph'],
+    'packages': ['mycallgraph'],
+    'install_requires': ['graphviz', 'pycallgraph'],
     'zip_safe': False,
-    'install_requires': ['django'],
     'author': 'WZS',
     'classifiers': [
         'Environment :: Console',
